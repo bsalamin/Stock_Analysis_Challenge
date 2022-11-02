@@ -27,8 +27,8 @@ The script correctly analyzes either stock index, based on the user input, and f
 * You can extend the capabilities of the code more easily. If you refactor code to have a more patterned, clarified design, you can more easily extend the capabilities of the code and provide greater flexibility in its function.
 *But, refactoring deteriorates the existing structure or architecture of the source code. Attempting a refactor in order to improve the codes maintainability or extensibility may have the opposite affect and/or reduce the comprehensibility of the code’s architecture or purpose.
 
-### Challenges of Refactoring This VBA Script
-#### Refactoring this script: 
+## Challenges of Refactoring This VBA Script
+### Refactoring this script: 
 * Improved the comprehensibility of the code’s design.
 * Extended the capabilities of the main script so as to reduce the number of overall macros that a user needed to run in order to achieve the same results – e.g., cell formatting.
 * Did not expand the code’s ability to take in new or different stock tickers. Future analysis outside of the existing stock tickers in the dataset will require refactoring the code again.
